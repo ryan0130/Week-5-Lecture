@@ -12,7 +12,7 @@ class Player {
 class Team {
     constructor(name) {
         this.name = name;
-        this.Players = [];
+        this.players = [];
     }
 
     addPlayer(player) {
